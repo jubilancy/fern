@@ -1,10 +1,10 @@
 # yaml-language-server: $schema=https://schema.buildwithfern.dev/docs-yml.json
 
 instances:
-  - url: eliana.docs.buildwithfern.com # CHANGED: was plantstore
+  - url: eliana.docs.buildwithfern.com
     # custom-domain: docs.eliana.lol # optional: add when you're ready to go live
 
-title: Eliana Docs # CHANGED
+title: Eliana Docs
 
 layout:
   searchbar-placement: header
@@ -42,6 +42,9 @@ navigation:
           - page: Support
             path: docs/pages/support.mdx
             icon: fa-duotone fa-headset
+      - folder: ./docs/pages/notes
+        title: Notes
+        title-source: frontmatter
       - section: Changelog
         contents:
           - changelog: docs/changelog
@@ -64,7 +67,7 @@ navigation:
             contents: []
 
 navbar-links:
-  - type: filled # CHANGED: removed the "Fork this repo" and fern GitHub links
+  - type: filled
     text: Dashboard
     url: https://dashboard.buildwithfern.com
 
@@ -84,7 +87,7 @@ logo:
   dark: docs/assets/logo-dark.svg
   light: docs/assets/logo.svg
   height: 20
-  href: https://eliana.lol # CHANGED: was buildwithfern.com
+  href: https://eliana.lol
 
 favicon: docs/assets/favicon.svg
 
