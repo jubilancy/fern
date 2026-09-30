@@ -1,10 +1,10 @@
 # yaml-language-server: $schema=https://schema.buildwithfern.dev/docs-yml.json
 
 instances:
-  - url: plantstore.docs.buildwithfern.com # update this to {yourorg}.docs.buildwithfern.com
-    # custom-domain: plantstore.dev # specify your custom domain when you are ready to go live
+  - url: eliana.docs.buildwithfern.com # CHANGED: was plantstore
+    # custom-domain: docs.eliana.lol # optional: add when you're ready to go live
 
-title: Fern Docs Starter
+title: Eliana Docs # CHANGED
 
 layout:
   searchbar-placement: header
@@ -64,15 +64,10 @@ navigation:
             contents: []
 
 navbar-links:
-  - type: minimal
-    text: Fork this repo
-    url: https://github.com/fern-api/docs-starter
-  - type: filled
+  - type: filled # CHANGED: removed the "Fork this repo" and fern GitHub links
     text: Dashboard
     url: https://dashboard.buildwithfern.com
-  - type: github
-    value: https://github.com/fern-api/fern
-      
+
 colors:
   accent-primary:
     dark: "#70E155"
@@ -89,7 +84,7 @@ logo:
   dark: docs/assets/logo-dark.svg
   light: docs/assets/logo.svg
   height: 20
-  href: https://buildwithfern.com
+  href: https://eliana.lol # CHANGED: was buildwithfern.com
 
 favicon: docs/assets/favicon.svg
 
